@@ -6,16 +6,16 @@ Features
  * Login
  * Create Account
  * Reset Password
- * Password
+ * Change Password
  * Logout
 
 
-## Install dependencies {.tabset}
-
+## Install dependencies
 
 ### Windows bash
 
 ```
+python -m pip install pipenv
 python -m venv env
 . env/Scripts/activate
 pipenv install
@@ -24,6 +24,7 @@ pipenv install
 ### Windows cmd
 
 ```
+python -m pip install pipenv
 python -m venv env
 .\env\Scripts\activate.bat
 pipenv install
@@ -32,6 +33,7 @@ pipenv install
 ### Linux
 
 ```
+python -m pip install pipenv
 python -m venv env
 source env/bin/activate
 pipenv install
