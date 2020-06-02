@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+
+.vscode
+
+db.sqlite3
+
+sent_emails
+
+env
