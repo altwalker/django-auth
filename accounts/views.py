@@ -1,3 +1,4 @@
+
 from django.shortcuts import render
 from .forms import UserCreationForm
 from django.urls import reverse_lazy

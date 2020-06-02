@@ -44,3 +44,8 @@ pipenv install
 `python manage.py migrate`  - creates the sqlite database and applies migration scripts
 
 `python manage.py runserver` - starts the webserver 
+
+
+## Load reset password emails
+
+When resetting a password an email must be sent to the user with a reset password link. For testability we save the email contents in a file that can be accessed by automated software at `/testability/last-reset-pwd-email`
