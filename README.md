@@ -41,10 +41,15 @@ pipenv install
 
 ## Run web application
 
+### From source
 `python manage.py migrate`  - creates the sqlite database and applies migration scripts
 
 `python manage.py runserver` - starts the webserver 
 
+### Docker
+
+`docker build -t django-auth .`
+`docker run --rm -it -p 8000:8000 django-auth`
 
 ## Load reset password emails
 
