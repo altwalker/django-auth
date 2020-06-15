@@ -2,6 +2,9 @@
 
 Django web application with authentication flow.
 
+The application is built as a demo to showcase how to write tests in python and execute them with AltWalker. https://gitlab.com/altom/altwalker/altwalker-examples
+
+
 Features 
  * Login
  * Create Account
