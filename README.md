@@ -4,7 +4,8 @@ Django web application with authentication flow.
 
 The application is built as a demo to showcase how to write tests in python and execute them with AltWalker.
 
-Features
+Features:
+
  * Login
  * Create Account
  * Reset Password
@@ -13,7 +14,7 @@ Features
 
 ## Run Django AUTH from code
 
-Windows bash
+Windows bash:
 
 ```sh
 git clone https://gitlab.com/altom/altwalker/altwalker-demos/django-auth
@@ -28,7 +29,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Windows cmd
+Windows cmd:
 
 ```bat
 git clone https://gitlab.com/altom/altwalker/altwalker-demos/django-auth
@@ -43,7 +44,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Unix
+Unix/MacOS:
 
 ```sh
 git clone https://gitlab.com/altom/altwalker/altwalker-demos/django-auth
@@ -60,8 +61,10 @@ python manage.py runserver
 
 ## Build and run as a docker image
 
-`docker build -t django-auth .`
-`docker run --rm -it -p 8000:8000 django-auth`
+```
+$ docker build -t django-auth .
+$ docker run --rm -it -p 8000:8000 django-auth
+```
 
 ## Load reset password emails
 
