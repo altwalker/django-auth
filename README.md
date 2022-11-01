@@ -2,17 +2,16 @@
 
 Django web application with authentication flow.
 
-The application is built as a demo to showcase how to write tests in python and execute them with AltWalker. 
+The application is built as a demo to showcase how to write tests in python and execute them with AltWalker.
 
-Features 
+Features
  * Login
  * Create Account
  * Reset Password
  * Change Password
  * Logout
 
-
-# Run Django AUTH from code
+## Run Django AUTH from code
 
 Windows bash
 
@@ -59,19 +58,16 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-
-# Build and run as a docker image
+## Build and run as a docker image
 
 `docker build -t django-auth .`
 `docker run --rm -it -p 8000:8000 django-auth`
 
-
-# Load reset password emails
+## Load reset password emails
 
 When resetting a password an email must be sent to the user with a reset password link. For testability we save the email contents in a file that can be accessed by automated software at `/testability/last-reset-pwd-email`
 
-
-# Useful links
+## Useful links
 
 To run the tests against this app, clone the tests repo from https://gitlab.com/altom/altwalker/altwalker-examples and follow the installation steps for `python-auth` example.
 
